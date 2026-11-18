@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="uk" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/images/logo-sm.6714d5be.svg" sizes="any" type="image/svg+xml">
+  <title>Контакти КрокОсвіти – питання про курси й навчання</title>
+  <meta name="description" content="Зверніться до КрокОсвіти з питаннями про курси, навчальні програми й формати. Розкажіть про свої цілі та знайдіть напрям для першого кроку.">
+  <!-- стилі проєкту -->
+  <link href="assets/styles/css2.css" rel="stylesheet" />
+  <link href="assets/styles/app.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- HEADER (як на головній) -->
+  <header class="max-w-4xl mx-auto" >
+    <nav class="navbar md:flex items-center justify-between px-4" >
+      <a href="index.html" class="logo-container" >
+        <img class="logo"  src="assets/images/logo-sm.6714d5be.svg" alt="КрокОсвіта">
+      </a>
+
+      <ul class="nav-menu" >
+        <li class="nav-item " ><a class="nav-link" 
+                href="index.html">Головна</a></li>
+        <li class="nav-item" ><a class="nav-link" 
+                href="404.html">Курси</a></li>
+        <li class="nav-item" ><a class="nav-link"  href="about.html">Про платформу</a></li>
+        <li class="nav-item" ><a class="nav-link"  href="404.html">Вартість</a>
+        </li>
+        <li class="nav-item active" ><a class="nav-link" 
+                href="contact.htm">Контакти</a></li>
+    </ul>
+
+      <div class="nav-actions" >
+        <button id="bookCallBtn" class="px-4 py-2 rounded-md bg-orange-50 text-white hover:bg-orange-70 transition-all duration-500 ease-in-out">Обрати навчання</button>
+        <div class="hamburger ml-2" >
+          <span class="bar" ></span><span class="bar" ></span><span class="bar" ></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- HERO: заголовок + короткий опис праворуч -->
+  <section class="max-w-4xl mx-auto px-4 pt-16 mb-10 pb-16 border-b border-white-95">
+    <div class="grid md:grid-cols-2 gap-5 items-start">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-15">Поговорімо про ваше навчання</h1>
+      </div>
+      <div>
+        <p class="text-gray-30 md:text-2xl">
+            Допоможемо зорієнтуватися у напрямах, порівняти формати й визначити перший крок. Розкажіть, що хочете вивчити та скільки часу готові присвячувати практиці.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="max-w-4xl mx-auto px-4 mt-10">
+    <div class="contact-wrap">
+      <div class="contact-grid">
+      <!-- LEFT: FORM (2/3) -->
+      <form class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <label class="form__field">
+          <span class="form__label">Ім’я</span>
+          <input type="text" class="form__input" placeholder="Введіть ім’я" required />
+        </label>
+        <label class="form__field">
+          <span class="form__label">Прізвище</span>
+          <input type="text" class="form__input" placeholder="Введіть прізвище" required />
+        </label>
+
+        <label class="form__field">
+          <span class="form__label">Електронна пошта</span>
+          <input type="email" class="form__input" placeholder="Ваша електронна адреса" required />
+        </label>
+        <label class="form__field">
+          <span class="form__label">Телефон</span>
+          <input type="tel" class="form__input" placeholder="Введіть номер телефону" />
+        </label>
+
+        <label class="form__field w-full">
+          <span class="form__label">Напрям або питання</span>
+          <input type="text" class="form__input" placeholder="Наприклад, вибір першого курсу" />
+        </label>
+
+        <label class="form__field w-full">
+          <span class="form__label">Розкажіть про вашу мету</span>
+          <textarea class="form__input form__textarea" rows="5" placeholder="Що хочете опанувати та який досвід уже маєте?"></textarea>
+        </label>
+
+        <div class="md:col-span-2 flex justify-center pt-2">
+          <button type="submit" class="px-6 py-3 rounded-md bg-orange-50 text-white hover:bg-orange-70 transition">
+            Надіслати запит
+          </button>
+        </div>
+      </form>
+
+      <!-- RIGHT: INFO CARDS (1/3) -->
+      <aside>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg aria-hidden="true" class="w-4 h-4"
+                        data-slot="icon" fill="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z">
+                        </path>
+                        <path
+                            d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z">
+                        </path>
+                    </svg>
+          </div>
+          <div class="text-gray-20 text-sm">
+           <a href="mailto:support@krokosvita.example"> support@krokosvita.example </a>
+          </div>
+        </div>
+      
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg aria-hidden="true" class="w-4 h-4"
+                        data-slot="icon" fill="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+          </div>
+          <div class="text-gray-20 text-sm">
+           <a href="tel:+380445550126"> +380 44 555 01 26 </a>
+          </div>
+        </div>
+      
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg aria-hidden="true" class="w-4 h-4"
+                        data-slot="icon" fill="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+          </div>
+          <div class="text-gray-20 text-sm">
+            <a href="https://www.google.com/maps/">Київ, Україна</a>
+          </div>
+        </div>
+      
+        <div class="contact-card">
+          <div class="social-row">
+            <!-- ваші посилання на соцмережі -->
+            <a href="#" aria-label="Facebook">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGbSURBVHgBpVRNcoIwFA7BRZdsHTd4gmb0ANoTlN6g3oDuukNP0HoCvEHpsqvqHig3KG6gS04A/R4TnBQxVP1mQvL+Pl7yXmKwDgghLM75o2EYs6qqBGZbmhKMFLr3OI43XbFGWzGdTh1MPobF9CDiVZvYVIXJZPKCbF6xvGH9sODrDIdDluf57ogQZB4cnnUMyKjA9AO/Q/ZYz0ejkZVl2UctSzI6L19DlOJMF2EYbpUElojxFLeHKIoCLv/i6cjKsrxTyU7Ap2IOKDsI9ikv/GybJEnayAhykC1VftZyrTtjAMM90wAZ7pu17IA3zc/nXJedRKqQix7fWyLsczoHtoFtVB2GFBUb6yIR94lp3tZzqiK7DF07S6godD/tI28hGl2BKhdSRw2tjjb2lOGuw2CbpvlNA63gNEqsXan/6oihogUcTbuhLNiVoKOjh4LL7SzY9VjRp756dAcxrdmFQB0OzxhvlCB1ycDOxxr3fNkIXLWQAWex+E8ryaeMXhhX1fO2I6WOMSZiiAGyVgtG6wC2JxRzLI/qD34B7/u2Bq8+3DwAAAAASUVORK5CYII=" alt="facebook">
+            </a>
+            <a href="#" aria-label="Twitter/X">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGZSURBVHgBxVO9TsJQFD697eAmThBY+ggNhKSb9QnUJxCeQH0D2dyEJ/AVcHNr2RiAXDY32WDsWBN+/E69bZqmXgqY+CX3nvv7nX+iP4ZJR8BxHLtWq9FqtYryd0byQEq52EfUarXuIZ4wKuoo2Gw2XcgQw7MsKxSxmabpt9ttpwRZP0PG8PD3U4279XotBVuHC3u73frNZvNBw6m7YyUVIURHKHPjQ8MwXmDJq1KSAnuPlWoICX9Hs9msbyh3fDY/9ybY7XZvsFwiNudYD3WE0+k05rKgnS3r4aMNaWfeeNhzjAhktAeJl2TxhA8+PtMJkMlCoFyYPaATAIPmKSFPXEs4XNCRQHbT+MadgooPG41GosU5hIwNQUIeU/JkgaQwUYcORy+7SXt5uVyO6/X6BZYulccAtfdcSKhI3+H6CBkPSxBLuHqbPxTZDdckXL9EXDqkxxCJvCq6MNAlN5DX9JMMbUKgKERGe5PJpP/bGxNuflSr1Tnc/MI4o1zPMgnOx5ADWN9FzALSoLA9XNe1WUZRFKrC/z98A+S9p05BtlcnAAAAAElFTkSuQmCC" alt="twitter">
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD4SURBVHgB5ZTNDYJAEIV3wLuWgBWoQAHYgR1YgrZgBUoJVmAJ4h0iHUgJFMCPb8hilgQNLuvJl5CdIfDNmxkCua57JKK9MCBwTuR5Xi0MylKTuq5zHJEYIRWYV1W1SpJkXZblXGhKBaZQJoMMbjOhIRW4hJw2wIAdoaG+paTMFJqaqAnaPMjwBoc72fa5qUy0QM6FQsuyUsQzxBtc27cOsRDik1u3bfuBMOIl8T3f94OiKHjOuQrA+xcJbtT5bD4pjuOIYe2cX46IQjUfDJQu7+wcrq5qIS0gb17OkBUgnfU9943DDgCtTscCB+kPgb/9H5oChsKcwie3IlyifKQbDgAAAABJRU5ErkJggg==" alt="linkedin">
+            </a>
+          </div>
+          <div class="text-gray-20 text-sm">Освітня спільнота</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+  
+  <!-- FOOTER (як на головній, спрощений) -->
+  <footer class="bg-white mt-4 pt-10">
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="pb-4 lg:flex justify-around gap-12">
+            <div class="flex-grow">
+                <picture class>
+                    <source media="(max-width: 600px)" srcset="assets/images/logo-sm.6714d5be.svg 1x" />
+                    <source media="(min-width: 601px) and (max-width: 1024px)"
+                        srcset="assets/images/logo-md.5ee27417.svg 1x" />
+                    <source media="(min-width: 1025px)" srcset="assets/images/logo-lg.70611192.svg 1x" /><img
+                        alt="КрокОсвіта – освітня платформа" src="assets/images/logo-md.5ee27417.svg" />
+                </picture>
+                <div class="flex items-center gap-2 mt-5"><svg aria-hidden="true" class="w-4 h-4"
+                        data-slot="icon" fill="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z">
+                        </path>
+                        <path
+                            d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z">
+                        </path>
+                    </svg><a class="text-sm font-light transition-all duration-500 hover:text-orange-50"
+                        href="mailto:hello@krokosvita.example">hello@krokosvita.example</a></div>
+                <div class="flex items-center gap-2 mt-2"><svg aria-hidden="true" class="w-4 h-4"
+                        data-slot="icon" fill="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                            fill-rule="evenodd"></path>
+                    </svg><a class="text-sm font-light transition-all duration-500 hover:text-orange-50"
+                        href="tel:+380445550126">+380 44 555 01 26</a></div>
+                <div class="flex items-center gap-2 mt-2"><svg aria-hidden="true" class="w-4 h-4"
+                        data-slot="icon" fill="currentColor" viewbox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                            fill-rule="evenodd"></path>
+                    </svg><a class="text-sm font-light transition-all duration-500 hover:text-orange-50"
+                        href="https://www.google.com/maps/">Київ, Україна</a></div>
+            </div>
+            <div class="flex gap-10 mt-3">
+                <div>
+                    <h2 class="text-base mb-2">Головна</h2><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="index.html#benefits">Переваги</a><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="index.html#servicesTitle">Наші курси</a><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="index.html#stories">Навчальні історії</a><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="index.html#faq">Поширені запитання</a>
+                </div>
+                <div>
+                    <h2 class="text-base mb-2">Про платформу</h2><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="about.html">Наша команда</a><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="about.html#approach">Наш підхід</a><a
+                        class="block text-xs font-light transition-all duration-500 hover:text-orange-50"
+                        href="about.html#goals">Наші цілі</a>
+                </div>
+            </div>
+            <div class="mt-3">
+                <h2 class="text-base mb-2">Соціальні мережі</h2>
+                <span
+                    class="inline-flex p-2 bg-white-97 border border-white-95 rounded-md mr-2">
+                    <a href="https://www.facebook.com/">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGbSURBVHgBpVRNcoIwFA7BRZdsHTd4gmb0ANoTlN6g3oDuukNP0HoCvEHpsqvqHig3KG6gS04A/R4TnBQxVP1mQvL+Pl7yXmKwDgghLM75o2EYs6qqBGZbmhKMFLr3OI43XbFGWzGdTh1MPobF9CDiVZvYVIXJZPKCbF6xvGH9sODrDIdDluf57ogQZB4cnnUMyKjA9AO/Q/ZYz0ejkZVl2UctSzI6L19DlOJMF2EYbpUElojxFLeHKIoCLv/i6cjKsrxTyU7Ap2IOKDsI9ikv/GybJEnayAhykC1VftZyrTtjAMM90wAZ7pu17IA3zc/nXJedRKqQix7fWyLsczoHtoFtVB2GFBUb6yIR94lp3tZzqiK7DF07S6godD/tI28hGl2BKhdSRw2tjjb2lOGuw2CbpvlNA63gNEqsXan/6oihogUcTbuhLNiVoKOjh4LL7SzY9VjRp756dAcxrdmFQB0OzxhvlCB1ycDOxxr3fNkIXLWQAWex+E8ryaeMXhhX1fO2I6WOMSZiiAGyVgtG6wC2JxRzLI/qD34B7/u2Bq8+3DwAAAAASUVORK5CYII=" alt="facebook">
+                    </a>
+                  </span>
+                  <span
+                    class="inline-flex p-2 bg-white-97 border border-white-95 rounded-md mr-2">
+                    
+                    <a href="https://x.com/"> 
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGZSURBVHgBxVO9TsJQFD697eAmThBY+ggNhKSb9QnUJxCeQH0D2dyEJ/AVcHNr2RiAXDY32WDsWBN+/E69bZqmXgqY+CX3nvv7nX+iP4ZJR8BxHLtWq9FqtYryd0byQEq52EfUarXuIZ4wKuoo2Gw2XcgQw7MsKxSxmabpt9ttpwRZP0PG8PD3U4279XotBVuHC3u73frNZvNBw6m7YyUVIURHKHPjQ8MwXmDJq1KSAnuPlWoICX9Hs9msbyh3fDY/9ybY7XZvsFwiNudYD3WE0+k05rKgnS3r4aMNaWfeeNhzjAhktAeJl2TxhA8+PtMJkMlCoFyYPaATAIPmKSFPXEs4XNCRQHbT+MadgooPG41GosU5hIwNQUIeU/JkgaQwUYcORy+7SXt5uVyO6/X6BZYulccAtfdcSKhI3+H6CBkPSxBLuHqbPxTZDdckXL9EXDqkxxCJvCq6MNAlN5DX9JMMbUKgKERGe5PJpP/bGxNuflSr1Tnc/MI4o1zPMgnOx5ADWN9FzALSoLA9XNe1WUZRFKrC/z98A+S9p05BtlcnAAAAAElFTkSuQmCC" alt="twitter">
+                    </a>
+                    </span>
+                  <span
+                    class="inline-flex p-2 bg-white-97 border border-white-95 rounded-md">
+                    <a href="https://www.linkedin.com/">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD4SURBVHgB5ZTNDYJAEIV3wLuWgBWoQAHYgR1YgrZgBUoJVmAJ4h0iHUgJFMCPb8hilgQNLuvJl5CdIfDNmxkCua57JKK9MCBwTuR5Xi0MylKTuq5zHJEYIRWYV1W1SpJkXZblXGhKBaZQJoMMbjOhIRW4hJw2wIAdoaG+paTMFJqaqAnaPMjwBoc72fa5qUy0QM6FQsuyUsQzxBtc27cOsRDik1u3bfuBMOIl8T3f94OiKHjOuQrA+xcJbtT5bD4pjuOIYe2cX46IQjUfDJQu7+wcrq5qIS0gb17OkBUgnfU9943DDgCtTscCB+kPgb/9H5oChsKcwie3IlyifKQbDgAAAABJRU5ErkJggg==" alt="linkedin">
+                    </a>
+                    </span>
+            </div>
+        </div>
+        <div class="p-4 border-t border-white-95">
+            <p class="font-light text-center">© 2026 КрокОсвіта. Навчайтеся у власному темпі.</p>
+        </div>
+    </div>
+</footer>
+
+  <!-- модалка (використовується твоїм main.js) -->
+  <div id="callModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="callModalTitle">
+        <div class="modal__overlay" data-modal-overlay></div>
+      
+        <div class="modal__card" role="document">
+          <button class="modal__close" type="button" aria-label="Закрити" data-modal-close>×</button>
+      
+          <header class="modal__header">
+            <h3 id="callModalTitle" class="modal__title">Підібрати курс</h3>
+            <p class="modal__subtitle">Оберіть напрям навчання та розкажіть, якого результату прагнете.</p>
+          </header>
+      
+          <form id="callForm" class="modal__form">
+            <div class="form__grid">
+              <label class="form__field">
+                <span class="form__label">Ім’я</span>
+                <input class="form__input" type="text" name="name" placeholder="Ваше ім’я" required>
+              </label>
+      
+              <label class="form__field">
+                <span class="form__label">Електронна пошта</span>
+                <input class="form__input" type="email" name="email" placeholder="Ваша електронна адреса" required>
+              </label>
+      
+              <label class="form__field">
+                <span class="form__label">Телефон</span>
+                <input class="form__input" type="tel" name="phone" placeholder="Ваш номер телефону" required>
+              </label>
+      
+              <label class="form__field">
+                <span class="form__label">Зручний час для розмови</span>
+                <input class="form__input" type="datetime-local" name="time">
+              </label>
+      
+              <label class="form__field form__field--full">
+                <span class="form__label">Ваші навчальні цілі</span>
+                <textarea class="form__input form__textarea" name="message" rows="4" placeholder="Який напрям навчання вас цікавить?"></textarea>
+              </label>
+      
+              <label class="form__check form__field--full">
+                <input type="checkbox" class="form__checkbox" name="consent" required>
+                <span>Погоджуюся на обробку персональних даних</span>
+              </label>
+            </div>
+      
+            <div class="modal__actions">
+              <button type="submit" class="btn btn-primary">Надіслати запит</button>
+              <button type="button" class="btn btn-ghost" data-modal-close>Скасувати</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+  <!-- підключення твого скрипта -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
